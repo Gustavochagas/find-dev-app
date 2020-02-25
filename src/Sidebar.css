@@ -65,3 +65,21 @@ aside form button[type="submit"] {
 aside form button[type="submit"]:hover {
   background: #6931ca;
 }
+
+.svg-loading {
+  stroke: #FBFCFF;
+  fill: none;
+  width: 24px;
+  height: 24px;
+  animation: move 3.5s infinite linear;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(7deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
